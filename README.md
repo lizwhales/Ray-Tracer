@@ -1,15 +1,19 @@
 # COMP30019 - Project 1 - Ray Tracer
 
-This is your README.md... you should write anything relevant to your
-implementation here.
+A simple Ray tracer which renders:
+- [x] Diffuse materials
+- [x] Shadow rays
+- [x] Reflective materials
+- [x] Refractive materials
+- [x] The Fresnel effect
+- [x] Anti-aliasing
+- [x] Glossy materials
 
-Please ensure your student details are specified below (*exactly* as on UniMelb
-records):
-
-**Name:** Elizabeth Wong \
-**Student Number:** 1082634 \
-**Username:** wonges \
-**Email:** wongesstudent.unimelb.edu.au
+Takes coordinates and shapes on a vector space to be rendered graphically. To see an example:
+```
+dotnet run -- -f tests/final_scene.txt -o final_scene.png -x 32
+```
+The ```final_scene.txt``` can be opened and changed to produce various other images.
 
 ## Completed stages
 
@@ -55,8 +59,7 @@ a bit of reflection and scaled it's intensity up in hopes to mimick a glossy sur
 I tried to do custom camera but didn't have time to work out the camera axis :(
 ## Final scene render
 
-Be sure to replace ```/images/final_scene.png``` with your final render so it
-shows up here.
+
 
 ![My final render](images/final_scene.png)
 
