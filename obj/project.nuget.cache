@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bHnHX3KuQYsAMzQojtTp0w0ceIGD19YXOuPZCcVfwBode1ws8xbO0EMJlQt1zi9nGieQ/87FohzWf9U0j8LD0A==",
+  "success": true,
+  "projectFilePath": "E:\\Uni_2022\\Graphics\\project-1-ray-tracer-lizwhales\\RayTracer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elizabeth Wong\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
+    "C:\\Users\\Elizabeth Wong\\.nuget\\packages\\stbimagewritesharp\\1.16.7\\stbimagewritesharp.1.16.7.nupkg.sha512"
+  ],
+  "logs": []
+}

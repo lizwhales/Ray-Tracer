@@ -1,0 +1,45 @@
+Material "BlackMat" Diffuse (0, 0, 0) 1
+Material "WhiteMat" Diffuse (1, 1, 1) 1
+Material "GreyMat" Diffuse (.5, .5, .5) 1
+Material "RedMat" Diffuse (1, .5, .5) 1
+Material "GreenMat" Diffuse (.5, 1, .5) 1
+Material "BlueMat" Diffuse (.5, .5, 1) 1
+Material "GlassMat" Refractive (0, 0, 0) 1.4
+Material "MirrorMat" Reflective (0, 0, 0) 1
+Material "GlossyMat" Glossy (.5, 1, .5) 1
+Material "GlossyMat2" Glossy (.5, 1, .5) 5
+Material "WhiteMatGloss" Glossy (1, 1, 1) 10
+PointLight "Light1" (0, 0.8, 1.5) (.5, .5, .5)
+PointLight "Light2" (-0.5, 0.2, 0.5) (.5, .5, .5)
+
+Sphere "BearHead" (0, 0.2, 2) 0.33 "WhiteMatGloss" 
+Sphere "RightEar" (0.35, 0.4, 2) 0.15 "MirrorMat" 
+Sphere "LeftEar" (-0.35, 0.4, 2) 0.15 "MirrorMat" 
+Sphere "BearBody" (-0, -0.53, 2.1) 0.52 "GlossyMat" 
+Sphere "LeftFoot" (-0.6, -1, 2) 0.15 "GlossyMat" 
+Sphere "RightFoot" (0.6, -1, 2) 0.15 "GlossyMat" 
+Sphere "RightArm" (0.45, -0.3, 2) 0.15 "GlossyMat" 
+Sphere "LeftArm" (-0.45, -0.3, 2) 0.15 "GlossyMat" 
+
+
+Sphere "RightEye" (0.15, 0.19, 1.7) 0.03 "BlackMat" 
+Sphere "LeftEye" (-0.15, 0.19, 1.7) 0.03 "BlackMat" 
+
+Sphere "Nose" (0, 0.07, 1.2) 0.03 "BlackMat" 
+
+Triangle "Mouth" (-0.05, 0.025, 1.2) (0.05, 0.025, 1.2) (0, 0.03, 1.2) "GlossyMat" 
+
+Plane "Floor" (0, -1, 0) (0, 1, 0) "GreyMat" 
+Plane "Roof" (0, 1, 0) (0, -1, 0) "GreyMat" 
+
+Triangle "LeftWallA" (-1, -1, 0) (-1, 1, 0) (-1, 1, 3) "MirrorMat" 
+Triangle "LeftWallB" (-1, -1, 0) (-1, 1, 3) (-1, -1, 3)  "MirrorMat" 
+
+Triangle "RightWallA" (1, 1, 0) (1, -1, 0) (1, 1, 3) "MirrorMat" 
+Triangle "RightWallB" (1, 1, 3) (1, -1, 0) (1, -1, 3)  "MirrorMat" 
+
+Triangle "RearWallA" (-1, 1, 0) (-1, -1, 0) (1, 1, 0) "MirrorMat" 
+Triangle "RearWallB" (1, 1, 0) (-1, -1, 0) (1, -1, 0) "MirrorMat" 
+
+Triangle "FarWallA" (-1, -1, 3) (-1, 1, 3) (1, 1, 3) "MirrorMat" 
+Triangle "FarWallB" (-1, -1, 3) (1, 1, 3) (1, -1, 3) "MirrorMat" 
